@@ -8,7 +8,14 @@
 The Blogging Application's REST API is a web-based platform that empowers bloggers and users to share their ideas and perspectives in an interactive way. The API allows users to publish blogs on their personal profiles, complete with image support, which enhances the user experience. The API also enables users to view and search for blogs and blog categories that align with their personal interests, fostering a community-driven platform. Users can also leave comments on published posts, encouraging engagement. 
 
 The API uses standard HTTP methods to retrieve, create, update, and delete data, providing a secure and robust way for the Blogging Application to interact with the data, making it easy and safe for users to share their thoughts and ideas. This REST API is an ideal solution for anyone who wants to connect with others and share their ideas through blogging.
-Features :
+
+The application will be used by the **two** categories of users:
+
+- **Administrator**
+
+- **Blogger / User** 
+
+## Features 
 
  - The API implements Spring Security and JSON Web Token (J.W.T) for authentication, validation, and authorization of users and administrators.
  - The API includes functionality for pagination, sorting, and searching of data.
@@ -18,24 +25,6 @@ Features :
 
 
 
-
-**REST API** allows **Bloggers / Users** to **Post** their ideas and views with **Images** as **Interactive Blogs** on their profile, **Users** can **View & Search** all the **Blogs & Blog Categories** as per their personal interests & can **Comment** their views on the **Posts**.
-  
-API also provides **User, Admin Spring Security & JWT Cookie Token Based Authentication, Validation & Authorization**. 
-
-API also provides **Pagination, Sorting & Searching features**.
-
-API also provides **Custom Exception Handling for all Exceptions & Validations**.
-
-API also provides **Custom Request and Response Data Transfer Objects for all HTTP Requests**.
-
-The API's primary objective is to provide **Users with both a Simple & User-Friendly Blogging Experience**.
-
-The application will be used by the **two** categories of users:
-
-- **Administrator**
-
-- **Blogger / User** 
 
 ## Tech Stack
 
